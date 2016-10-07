@@ -1,5 +1,5 @@
-# Blank Template
+# Web Interactivity and Engagement Blog
 
 ##Author: Christina Hendricks
 
-Blank WordPress Template for Web Interactivity and Engagement Course
+Blog site for Web Interactivity and Engagement Course
