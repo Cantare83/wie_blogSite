@@ -106,3 +106,7 @@ h1.site-title {
   padding: 25px 1em;
   background-color: #6b7eb2;
 }
+
+footer h4 {
+  color: #ffffff;
+}
