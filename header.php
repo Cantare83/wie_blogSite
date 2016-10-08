@@ -6,13 +6,14 @@
         <?php wp_head(); ?>
           <!-- Links to our Style.css file -->
         <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
+        <link <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway:500" rel="stylesheet">
     </head>
     <body>
       <div class="header-wrapper">
           <header class="container">
               <div class="row">
                   <div class="seven columns">
-                      <h1><a href="<?php $url = home_url('/'); echo $url; ?>">
+                      <h1 class="site-title"><a href="<?php $url = home_url('/'); echo $url; ?>">
                       <?php bloginfo('name'); ?></a></h1>
                   </div>
                   <div class="five columns">

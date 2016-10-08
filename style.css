@@ -1,25 +1,25 @@
 /*
-Theme Name: Christina Hendricks Blank Theme
+Theme Name: Christina Hendricks Blog
 Theme URI:
 Author: Christina Hendricks
-Description: Blank theme for WIE course
+Description: Blog for WIE course
 Version: 0.1
 License: Open
-Text Domain: christina_hendricks_blank_template
+Text Domain: wie_BlogSite_hendricks
 */
 
 @import url("stylesheets/normalize.css");
 @import url("stylesheets/skeleton.css");
 
 html, body{
-    color: #000000;
+    color: #29293d;
     font-size: 14px;
     line-height: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: #29293d;
-    font-weight: 700;
+    color: #6b7eb2;
+    font-family: 'Poiret One', cursive;
 }
 
 h1 {
@@ -42,24 +42,36 @@ h5 {
     font-size: 1.2rem;
 }
 
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
 a {
-    color: #39b589;
-    font-style: bold;
+    color: #ffffff;
     text-decoration: none;
+}
+
+a:hover {
+  color: #b7cc99;
 }
 
 /*--- Header ---*/
 
 .header-wrapper {
-  padding: 25px 1em;
+  padding: 10px 1em;
   background-color: #6b7eb2;
+}
+
+h1.site-title {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
 }
 
 /*--- Menu --- */
 
 .blank-menu-header {
     text-align: left;
-    margin-top: 40px;
+    margin-top: 15px;
 }
 .blank-menu-header ul {
     margin: 0;
@@ -74,11 +86,11 @@ a {
     text-decoration:none;
     margin: 4px;
     padding: 5px 0px 5px 40px;
-    font-weight: 300;
     font-size: 1.1rem;
 }
 .blank-menu-header ul li a:hover {
-    color: #cccccc;
+    color: #b7cc99;
+    text-decoration: underline;
 }
 
 /*--- Homepage ---*/
