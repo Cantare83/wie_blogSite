@@ -48,6 +48,13 @@ a {
     text-decoration: none;
 }
 
+/*--- Header ---*/
+
+.header-wrapper {
+  padding: 25px 1em;
+  background-color: #6b7eb2;
+}
+
 /*--- Menu --- */
 
 .blank-menu-header {
@@ -72,4 +79,17 @@ a {
 }
 .blank-menu-header ul li a:hover {
     color: #cccccc;
+}
+
+/*--- Homepage ---*/
+
+.index-post {
+
+}
+
+/*--- Footer ---*/
+
+.footer-wrapper {
+  padding: 25px 1em;
+  background-color: #6b7eb2;
 }
