@@ -13,10 +13,10 @@
             </div>
 
             <div class="seven columns">
-                <a href="">Twitter</a>
-                <a href="">Linkedin</a>
-                <a href="">GitHub</a>
-                <a href="">Behance</a>
+                <a class="fa fa-twitter" href="https://twitter.com/ChrisiHendricks"></a>
+                <a class="fa fa-linkedin" href="https://www.linkedin.com/in/christina-hendricks-26471a7a"></a>
+                <a class="fa fa-github" href="https://github.com/Cantare83"></a>
+                <a class="fa fa-behance" href="https://www.behance.net/ChrisiHendricks"></a>
             </div>
         </div>
         <div class="row">
@@ -38,5 +38,8 @@
 </div>
 
       <?php wp_footer(); ?>
+
+      <script src="https://use.fontawesome.com/f9fd5646bd.js"></script>
+
     </body>
 </html>

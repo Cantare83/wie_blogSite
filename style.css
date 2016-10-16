@@ -141,3 +141,11 @@ footer a {
 footer h4 {
   color: #ffffff;
 }
+
+.fa {
+  padding: 10px;
+}
+
+.fa a {
+  font-size: 2rem;
+}
