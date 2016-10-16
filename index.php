@@ -34,7 +34,7 @@
                           the_post_thumbnail('thumbnail');
                       } ?>
                   </div>
-                  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                  <h3 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                   <span class="date">Fake Date, 2016</span>
                   <?php the_excerpt(); ?>
                   <a href="<?php the_permalink(); ?>">Read More</a>

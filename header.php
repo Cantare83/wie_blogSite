@@ -10,7 +10,7 @@
     </head>
     <body>
       <div class="header-wrapper">
-          <header class="container">
+          <header>
               <div class="row">
                   <div class="seven columns">
                       <h1 class="site-title"><a href="<?php $url = home_url('/'); echo $url; ?>">

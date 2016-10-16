@@ -1,7 +1,7 @@
 </div> <!-- End Container Div -->
 
 <div class="footer-wrapper">
-    <footer class="container">
+    <footer>
         <div class="row">
             <div class="five columns">
               <?php

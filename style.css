@@ -60,11 +60,16 @@ a:hover {
 .header-wrapper {
   padding: 10px 1em;
   background-color: #6b7eb2;
+  position: fixed;
+  left: 0;
+  right: 0;
+  opacity: .8;
 }
 
 h1.site-title {
   font-size: 2.25rem;
   margin-bottom: 1rem;
+  margin-left: 32%;
 }
 
 /*--- Menu --- */
@@ -101,12 +106,21 @@ h1.site-title {
 
 /*--- Homepage ---*/
 
+.container {
+  padding-top: 40px;
+}
+
 .site-title a {
     color: #ffffff;
 }
 
 .site-title a:hover {
     color: #b7cc99;
+}
+
+.title a {
+    color: #ffffff;
+    background-color: #6b7eb2;
 }
 
 .index-post {
