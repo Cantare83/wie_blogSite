@@ -120,9 +120,41 @@ h1.site-title {
     color: #b7cc99;
 }
 
+.title-container {
+   width: 960px;
+   height: 65px;
+   background-color: #6b7eb2;
+   opacity: .8;
+   position: absolute;
+   bottom: 0;
+}
+
+.title-container:hover {
+   width: 960px;
+   height: 185px;
+   background-color: #6b7eb2;
+   opacity: .8;
+   position: absolute;
+   top: 0;
+}
+
+.thumbnail {
+    position: relative;
+    width: 960px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title:hover {
+    text-align: center;
+    margin-top: 80px;
+}
+
 .title a {
     color: #ffffff;
-    background-color: #6b7eb2;
 }
 
 .about-img {
