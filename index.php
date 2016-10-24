@@ -9,14 +9,14 @@
     </section>
     <section class="row">
         <div class="four columns">
-            <figure>
-              <img src="" alt="Christina Hendricks" />
-            </figure>
+
+              <img class="about-img" src="wp-content/themes/christina_hendricks_blank_template/images/ch-aboutpic.jpg" alt="Christina Hendricks"/>
+
         </div>
         <div class="eight columns">
             <h3>Get to Know the Author</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              My name is Christina Hendricks and I am currently learning all I can about web design and front-end development. I am working through the Web Design and Online Communications Masters program at the University of Florida. Go Gators! I will be posting here about things I learn throughout this semester and intend to carry on blogging after the class is over. Visit my About Page to learn more about me. Thanks for visiting!
             </p>
             <button type="button" name="button">Learn More</button>
         </div>
