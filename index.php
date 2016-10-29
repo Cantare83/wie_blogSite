@@ -43,14 +43,9 @@
                 </div>
                 <?php
               } //end while
+              pagination_wie();
             } //end if
           ?>
-          <!-- End Loop -->
-    </section>
-    <section class="row">
-        <div class="twelve columns">
-            <button type="button" name="button">More Posts</button>
-        </div>
     </section>
 </div>
 <!-- End Main Content -->
