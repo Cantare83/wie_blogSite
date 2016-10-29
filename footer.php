@@ -41,5 +41,14 @@
 
       <script src="https://use.fontawesome.com/f9fd5646bd.js"></script>
 
+<!-- Begin Unslider Initiator -->
+      <script>
+          $(function() { $('.my-slider').unslider({
+              autoplay: true
+              });
+          });
+      </script>
+<!-- End Unslider Initiator -->
+
     </body>
 </html>

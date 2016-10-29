@@ -3,8 +3,24 @@
 <!-- Begin Main Content -->
 <div class="container">
     <section class="row">
-        <div class="twelve columns">
-          <h1>Education & Inspiration</h1>
+        <div class="twelve columns my-slider">
+            <ul>
+                <li id="hpSlide1">
+                  <div class="slides-message">
+                    <h1>Education & Inspiration</hi>
+                  </div>
+                </li>
+                <li id="hpSlide2">
+                  <div class="slides-message">
+                    <h1>Education & Inspiration</hi>
+                  </div>
+                </li>
+                <li id="hpSlide3">
+                  <div class="slides-message">
+                    <h1>Education & Inspiration</hi>
+                  </div>
+                </li>
+            </ul>
         </div>
     </section>
     <section class="row">
