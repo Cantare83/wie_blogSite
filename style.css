@@ -200,6 +200,9 @@ h1.site-title {
 
 .unslider-arrow{
   position:absolute;
+  top: 200px;
+  font-size: 3rem;
+  color: #ffffff;
   left:20px;
   z-index:2;
   cursor:pointer;
@@ -233,7 +236,7 @@ h1.site-title {
 }
 
 .container {
-  padding-top: 1.5rem;
+  padding-top: 0.2rem;
 }
 
 .site-title a {
