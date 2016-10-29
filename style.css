@@ -122,25 +122,24 @@ h1.site-title {
 
 .title-container {
    width: 960px;
-   height: 65px;
+   height: 185px;
    background-color: #6b7eb2;
-   opacity: .8;
+   opacity: .9;
    position: absolute;
-   bottom: 0;
+   top: 130px;
+   -webkit-transition: top 0.5s;
+   transition: top 0.5s;
 }
 
 .title-container:hover {
-   width: 960px;
-   height: 185px;
-   background-color: #6b7eb2;
-   opacity: .8;
-   position: absolute;
    top: 0;
 }
 
 .thumbnail {
     position: relative;
     width: 960px;
+    height: 185px;
+    overflow: hidden;
 }
 
 .title {

@@ -35,6 +35,7 @@
                       } ?>
                       <div class="title-container">
                       <h3 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                      <?php echo do_shortcode("[mashshare]"); ?>
                       </div>
                   </div>
                   <span class="date">Fake Date, 2016</span>
