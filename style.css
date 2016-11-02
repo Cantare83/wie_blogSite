@@ -373,3 +373,9 @@ footer h4 {
 #searchsubmit {
   background-color: #b7cc99;
 }
+
+/*--- Page Styling ---*/
+
+.page-container {
+  padding-top: 4rem;
+}
