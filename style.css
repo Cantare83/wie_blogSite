@@ -58,7 +58,7 @@ a:hover {
   color: #89a85d;
 }
 
-button {
+.button {
   margin-bottom: 2.5rem;
   margin-top: 1.5rem;
   background-color: #b7cc99;
@@ -74,7 +74,7 @@ button {
   border: none;
 }
 
-button:hover {
+.button:hover {
   background-color: #89a85d;
   border-radius: 0;
   height: auto;
@@ -378,4 +378,16 @@ footer h4 {
 
 .page-container {
   padding-top: 4rem;
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
 }

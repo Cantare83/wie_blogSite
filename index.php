@@ -34,7 +34,7 @@
             <p>
               My name is Christina Hendricks and I am currently learning all I can about web design and front-end development. I am working through the Web Design and Online Communications Masters program at the University of Florida. Go Gators! I will be posting here about things I learn throughout this semester and intend to carry on blogging after the class is over. Visit my About Page to learn more about me. Thanks for visiting!
             </p>
-            <button type="button" name="button">Learn More</button>
+            <a href="http://www.chrisihendricks.net/blog/about/" class="button">Learn More</a>
         </div>
     </section>
     <section class="row">
