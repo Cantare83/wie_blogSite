@@ -2,7 +2,7 @@
 
 <div class="footer-wrapper">
     <footer>
-        <div class="row">
+        <div class="row footer-nav">
             <div class="five columns">
               <?php
                   wp_nav_menu( array(
@@ -19,7 +19,7 @@
                 <a class="fa fa-behance" href="https://www.behance.net/ChrisiHendricks"></a>
             </div>
         </div>
-        <div class="row">
+        <div class="row widgets-row">
             <div class="five columns">
                 <?php dynamic_sidebar('footer-one'); ?>
             </div>
@@ -29,9 +29,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="twelve columns">
-              <a href="">copyright</a>
-              <a href="">privacy policy</a>
+            <div class="twelve columns copyright">
+              <p>Designed by Chrisi Hendricks. Copyright &copy; 2016</p>
             </div>
         </div>
     </footer>

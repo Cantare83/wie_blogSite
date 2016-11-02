@@ -339,10 +339,37 @@ footer h4 {
   color: #ffffff;
 }
 
+.copyright {
+  padding-left: 16.5rem;
+  color: #fff;
+}
+
 .fa {
   padding: 10px;
 }
 
 .fa a {
   font-size: 2rem;
+}
+
+.widget-left {
+  padding-left: 2.5rem;
+  padding-bottom: 0;
+}
+
+.widgets-row {
+  padding-left: 13.5rem;
+}
+
+.footer-nav {
+  padding-bottom: 1rem;
+  padding-left: 13rem;
+}
+
+.screen-reader-text {
+  color: #fff;
+}
+
+#searchsubmit {
+  background-color: #b7cc99;
 }
