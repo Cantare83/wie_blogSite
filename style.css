@@ -72,6 +72,7 @@ a:hover {
   font-size: 1rem;
   text-transform: none;
   border: none;
+  box-shadow: 0.5px 0.5px 3px .1px #575555;
 }
 
 .button:hover {
@@ -97,10 +98,13 @@ a:hover {
   padding-top: 10px;
 }
 
+header {
+  padding-left: 18%;
+}
+
 h1.site-title {
   font-size: 2.25rem;
   margin-bottom: 1rem;
-  margin-left: 32%;
 }
 
 /*--- Menu --- */
@@ -121,7 +125,7 @@ h1.site-title {
 .blank-menu-header ul li a {
     text-decoration:none;
     margin: 4px;
-    padding: 5px 0px 5px 40px;
+    /*padding: 5px 0px 5px 40px;*/
     font-size: 1.1rem;
     text-transform: uppercase;
 }
@@ -230,7 +234,7 @@ h1.site-title {
 .my-slider h1 {
   margin-top: 50px;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.3rem;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -315,6 +319,7 @@ h1.site-title {
 	cursor: pointer;
 	padding: 12px;
 	padding: 0.75rem;
+  box-shadow: 0.5px 0.5px 3px .1px #575555;
 }
 
 .navigation li a:hover,
@@ -329,6 +334,7 @@ h1.site-title {
 .footer-wrapper {
   padding: 25px 1em;
   background-color: #6b7eb2;
+  padding-left: 15%;
 }
 
 footer a {
@@ -340,7 +346,6 @@ footer h4 {
 }
 
 .copyright {
-  padding-left: 16.5rem;
   color: #fff;
 }
 
@@ -353,17 +358,11 @@ footer h4 {
 }
 
 .widget-left {
-  padding-left: 2.5rem;
   padding-bottom: 0;
-}
-
-.widgets-row {
-  padding-left: 13.5rem;
 }
 
 .footer-nav {
   padding-bottom: 1rem;
-  padding-left: 13rem;
 }
 
 .screen-reader-text {
@@ -372,6 +371,7 @@ footer h4 {
 
 #searchsubmit {
   background-color: #b7cc99;
+  box-shadow: 0.5px 0.5px 2px 0px #222222;
 }
 
 /*--- Page Styling ---*/
