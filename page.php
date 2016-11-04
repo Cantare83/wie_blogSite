@@ -2,7 +2,7 @@
 
     <section class="row">
       <div class="page-container">
-        <div class="eight columns">
+        <div class="eight columns page-left">
 
 <!-- Begin Page PHP -->
             <?php if( have_posts() ) {
@@ -20,7 +20,7 @@
         <div class="four columns">
           <?php get_sidebar(); ?>
         </div>
-      </div>  
+      </div>
     </section>
 
 <?php get_footer(); ?>

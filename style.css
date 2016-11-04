@@ -340,6 +340,7 @@ h1.site-title {
   padding: 25px 1em;
   background-color: #6b7eb2;
   padding-left: 18%;
+  margin-top: 2.5rem;
 }
 
 footer a {
@@ -377,7 +378,7 @@ footer h4 {
 /*--- Page Styling ---*/
 
 .page-container {
-  padding-top: 4rem;
+  padding-top: 2.5rem;
 }
 
 .screen-reader-text {
@@ -390,4 +391,24 @@ footer h4 {
   position: absolute;
   width: 1px;
   white-space: nowrap;
+}
+
+.page-left {
+  padding-left: 10%;
+}
+
+.about-header-img {
+  width: 100%;
+  height: auto;
+}
+
+.internal-page-img {
+  width: 90%;
+  height: auto;
+}
+
+/*-----Sidebar------*/
+
+.widget-sidebar {
+  width: 80%;
 }
