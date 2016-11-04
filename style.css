@@ -20,7 +20,7 @@ html, body{
 h1, h2, h3, h4, h5, h6{
     color: #6b7eb2;
     font-family: 'Poiret One', cursive;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 h1 {
@@ -379,6 +379,7 @@ footer h4 {
 
 .page-container {
   padding-top: 2.5rem;
+  padding-left: 10%;
 }
 
 .screen-reader-text {
@@ -391,10 +392,6 @@ footer h4 {
   position: absolute;
   width: 1px;
   white-space: nowrap;
-}
-
-.page-left {
-  padding-left: 10%;
 }
 
 .about-header-img {
@@ -411,4 +408,10 @@ footer h4 {
 
 .widget-sidebar {
   width: 80%;
+}
+
+/*---Single Post----*/
+
+.single-sidebar {
+  padding-top: 195px;
 }

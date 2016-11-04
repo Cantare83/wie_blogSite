@@ -2,7 +2,7 @@
 /* Template Name: Search Page */
 get_header(); ?>
 
-<div class="row">
+<div class="row page-container">
     <div class="eight columns">
         <?php if( have_posts() ) :?>
             <h1><?php printf(

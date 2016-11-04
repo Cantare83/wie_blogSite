@@ -2,7 +2,7 @@
 
     <section class="row">
       <div class="page-container">
-        <div class="eight columns page-left">
+        <div class="eight columns">
 
 <!-- Begin Page PHP -->
             <?php if( have_posts() ) {
