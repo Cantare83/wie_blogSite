@@ -20,7 +20,7 @@
                       <?php
                           wp_nav_menu( array(
                             'sort_column' => 'menu-order',
-                            'container_class' => 'blank-menu-header'
+                            'container_class' => 'menu-header'
                           ));
                       ?>
                   </div>

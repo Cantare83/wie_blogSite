@@ -58,7 +58,7 @@ a:hover {
   color: #89a85d;
 }
 
-.button {
+.button, #searchsubmit {
   margin-bottom: 2.5rem;
   margin-top: 1.5rem;
   background-color: #b7cc99;
@@ -75,8 +75,9 @@ a:hover {
   box-shadow: 0.5px 0.5px 3px .1px #575555;
 }
 
-.button:hover {
+.button:hover, #searchsubmit:hover {
   background-color: #89a85d;
+  color: #000000;
   border-radius: 0;
   height: auto;
   padding: .05rem 1rem .05rem 1rem;
@@ -107,22 +108,45 @@ h1.site-title {
   margin-bottom: 1rem;
 }
 
+.site-title a {
+    color: #ffffff;
+}
+
+.site-title a:hover {
+    color: #b7cc99;
+}
+
+.title-container {
+   width: 100%;
+   height: 185px;
+   background-color: #6b7eb2;
+   opacity: .9;
+   position: absolute;
+   top: 130px;
+   -webkit-transition: top 0.5s;
+   transition: top 0.5s;
+}
+
+.title-container:hover {
+   top: 0;
+}
+
 /*--- Menu --- */
 
-.blank-menu-header {
+.menu-header {
     text-align: left;
     margin-top: 15px;
 }
-.blank-menu-header ul {
+.menu-header ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     list-style-image: none;
 }
-.blank-menu-header li {
+.menu-header li {
     display: inline;
 }
-.blank-menu-header ul li a {
+.menu-header ul li a {
     text-decoration:none;
     margin: 4px;
     /*padding: 5px 0px 5px 40px;*/
@@ -130,16 +154,20 @@ h1.site-title {
     text-transform: uppercase;
 }
 
-.blank-menu-header ul li a {
+.menu-header ul li a {
     color: #ffffff;
 }
 
-.blank-menu-header ul li a:hover {
+.menu-header ul li a:hover {
     color: #b7cc99;
     text-decoration: underline;
 }
 
 /*--- Homepage ---*/
+
+.container {
+  padding-top: 0.2rem;
+}
 
 #hpSlide1 {
   background-image: url('images/slider01.jpg');
@@ -239,33 +267,6 @@ h1.site-title {
   color: #ffffff;
 }
 
-.container {
-  padding-top: 0.2rem;
-}
-
-.site-title a {
-    color: #ffffff;
-}
-
-.site-title a:hover {
-    color: #b7cc99;
-}
-
-.title-container {
-   width: 100%;
-   height: 185px;
-   background-color: #6b7eb2;
-   opacity: .9;
-   position: absolute;
-   top: 130px;
-   -webkit-transition: top 0.5s;
-   transition: top 0.5s;
-}
-
-.title-container:hover {
-   top: 0;
-}
-
 .thumbnail {
     position: relative;
     width: 100%;
@@ -334,7 +335,7 @@ h1.site-title {
 .footer-wrapper {
   padding: 25px 1em;
   background-color: #6b7eb2;
-  padding-left: 15%;
+  padding-left: 18%;
 }
 
 footer a {
@@ -367,11 +368,6 @@ footer h4 {
 
 .screen-reader-text {
   color: #fff;
-}
-
-#searchsubmit {
-  background-color: #b7cc99;
-  box-shadow: 0.5px 0.5px 2px 0px #222222;
 }
 
 /*--- Page Styling ---*/
