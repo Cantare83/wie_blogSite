@@ -44,6 +44,7 @@
               while ( have_posts() ) {
                 the_post(); ?>
                 <div class="twelve columns index-post">
+                  
                   <div class="thumbnail">
                     <?php
                       if ( has_post_thumbnail() ) {
@@ -54,9 +55,15 @@
                       <?php echo do_shortcode("[mashshare]"); ?>
                       </div>
                   </div>
-                  <span class="date">Fake Date, 2016</span>
+
+                  <span class="date"><?php echo get_the_date(); ?></span>
+
+                  <div class="post-excerpt">
                   <?php the_excerpt(); ?>
+                  </div>
+
                   <a href="<?php the_permalink(); ?>">Read More</a>
+
                 </div>
                 <?php
               } //end while
