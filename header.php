@@ -6,7 +6,7 @@
         <?php wp_head(); ?>
           <!-- Links to our Style.css file -->
         <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
-        <link <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway:500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway:500" rel="stylesheet">
     </head>
     <body>
       <div class="header-wrapper">
