@@ -26,7 +26,7 @@
     <section class="row">
         <div class="four columns">
 
-              <img class="about-img" src="wp-content/themes/christina_hendricks_blank_template/images/ch-aboutpic.jpg" alt="Christina Hendricks"/>
+              <img class="about-img" src="<?php echo get_template_directory_uri(); ?>/images/ch-aboutpic.jpg" alt="Christina Hendricks" />
 
         </div>
         <div class="eight columns">
@@ -44,7 +44,7 @@
               while ( have_posts() ) {
                 the_post(); ?>
                 <div class="twelve columns index-post">
-                  
+
                   <div class="thumbnail">
                     <?php
                       if ( has_post_thumbnail() ) {
